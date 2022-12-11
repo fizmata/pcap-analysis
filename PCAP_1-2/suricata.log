@@ -1,0 +1,17 @@
+[12750] 12/12/2022 -- 00:18:48 - (suricata.c:1084) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in USER mode
+[12750] 12/12/2022 -- 00:18:48 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 3
+[12750] 12/12/2022 -- 00:18:48 - (util-logopenfile.c:474) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[12750] 12/12/2022 -- 00:18:48 - (util-logopenfile.c:474) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[12750] 12/12/2022 -- 00:18:48 - (util-logopenfile.c:474) <Info> (SCConfLogOpenGeneric) -- stats output device (regular) initialized: stats.log
+[12750] 12/12/2022 -- 00:18:50 - (detect-engine-loader.c:353) <Info> (SigLoadSignatures) -- 1 rule files processed. 36885 rules successfully loaded, 0 rules failed
+[12750] 12/12/2022 -- 00:18:50 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[12750] 12/12/2022 -- 00:18:51 - (detect-engine-build.c:1416) <Info> (SigAddressPrepareStage1) -- 36888 signatures processed. 1441 are IP-only rules, 5152 are inspecting packet payload, 30098 inspect application layer, 103 are decoder event only
+[12750] 12/12/2022 -- 00:19:29 - (tm-threads.c:2170) <Notice> (TmThreadWaitOnThreadInit) -- all 4 packet processing threads, 4 management threads initialized, engine started.
+[12752] 12/12/2022 -- 00:19:29 - (source-pcap-file.c:176) <Info> (ReceivePcapFileLoop) -- Starting file run for /home/zeo/Desktop/assignment1.pcap
+[12752] 12/12/2022 -- 00:19:29 - (util-checksum.c:89) <Info> (ChecksumAutoModeCheck) -- No packets with invalid checksum, assuming checksum offloading is NOT used
+[12752] 12/12/2022 -- 00:24:04 - (source-pcap-file-helper.c:149) <Info> (PcapFileDispatch) -- pcap file /home/zeo/Desktop/assignment1.pcap end of file reached (pcap err code 0)
+[12750] 12/12/2022 -- 00:24:04 - (suricata.c:2916) <Notice> (SuricataMainLoop) -- Signal Received.  Stopping engine.
+[12750] 12/12/2022 -- 00:24:29 - (suricata.c:1103) <Info> (SCPrintElapsedTime) -- time elapsed 299.632s
+[12752] 12/12/2022 -- 00:24:29 - (source-pcap-file.c:377) <Notice> (ReceivePcapFileThreadExitStats) -- Pcap-file module read 1 files, 977128 packets, 861092622 bytes
+[12750] 12/12/2022 -- 00:24:29 - (counters.c:853) <Info> (StatsLogSummary) -- Alerts: 393
+[12750] 12/12/2022 -- 00:24:30 - (detect-engine-build.c:1716) <Info> (SigAddressCleanupStage1) -- cleaning up signature grouping structure... complete

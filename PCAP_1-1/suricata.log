@@ -1,0 +1,34 @@
+[25966] 11/12/2022 -- 23:23:53 - (suricata.c:1084) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in USER mode
+[25966] 11/12/2022 -- 23:23:53 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 1
+[25966] 11/12/2022 -- 23:23:53 - (util-logopenfile.c:474) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[25966] 11/12/2022 -- 23:23:53 - (util-logopenfile.c:474) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[25966] 11/12/2022 -- 23:23:53 - (util-logopenfile.c:474) <Info> (SCConfLogOpenGeneric) -- stats output device (regular) initialized: stats.log
+[25966] 11/12/2022 -- 23:23:56 - (detect-engine-loader.c:353) <Info> (SigLoadSignatures) -- 1 rule files processed. 36885 rules successfully loaded, 0 rules failed
+[25966] 11/12/2022 -- 23:23:56 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[25966] 11/12/2022 -- 23:23:56 - (detect-engine-build.c:1416) <Info> (SigAddressPrepareStage1) -- 36888 signatures processed. 1441 are IP-only rules, 5152 are inspecting packet payload, 30098 inspect application layer, 103 are decoder event only
+[25966] 11/12/2022 -- 23:24:23 - (tm-threads.c:2170) <Notice> (TmThreadWaitOnThreadInit) -- all 2 packet processing threads, 4 management threads initialized, engine started.
+[25973] 11/12/2022 -- 23:24:23 - (source-pcap-file.c:176) <Info> (ReceivePcapFileLoop) -- Starting file run for netflowlab_capture.pcap
+[25973] 11/12/2022 -- 23:24:23 - (util-checksum.c:89) <Info> (ChecksumAutoModeCheck) -- No packets with invalid checksum, assuming checksum offloading is NOT used
+[25973] 11/12/2022 -- 23:29:03 - (source-pcap-file-helper.c:149) <Info> (PcapFileDispatch) -- pcap file netflowlab_capture.pcap end of file reached (pcap err code 0)
+[25966] 11/12/2022 -- 23:29:03 - (suricata.c:2916) <Notice> (SuricataMainLoop) -- Signal Received.  Stopping engine.
+[25966] 11/12/2022 -- 23:29:40 - (suricata.c:1103) <Info> (SCPrintElapsedTime) -- time elapsed 316.619s
+[25973] 11/12/2022 -- 23:29:40 - (source-pcap-file.c:377) <Notice> (ReceivePcapFileThreadExitStats) -- Pcap-file module read 1 files, 2397018 packets, 2223088104 bytes
+[25966] 11/12/2022 -- 23:29:40 - (counters.c:853) <Info> (StatsLogSummary) -- Alerts: 41014
+[25966] 11/12/2022 -- 23:29:40 - (detect-engine-build.c:1716) <Info> (SigAddressCleanupStage1) -- cleaning up signature grouping structure... complete
+[26311] 11/12/2022 -- 23:48:56 - (suricata.c:1084) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in USER mode
+[26311] 11/12/2022 -- 23:48:56 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 1
+[26311] 11/12/2022 -- 23:48:56 - (util-logopenfile.c:474) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[26311] 11/12/2022 -- 23:48:56 - (util-logopenfile.c:474) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[26311] 11/12/2022 -- 23:48:56 - (util-logopenfile.c:474) <Info> (SCConfLogOpenGeneric) -- stats output device (regular) initialized: stats.log
+[26311] 11/12/2022 -- 23:48:58 - (detect-engine-loader.c:353) <Info> (SigLoadSignatures) -- 1 rule files processed. 36885 rules successfully loaded, 0 rules failed
+[26311] 11/12/2022 -- 23:48:58 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[26311] 11/12/2022 -- 23:48:58 - (detect-engine-build.c:1416) <Info> (SigAddressPrepareStage1) -- 36888 signatures processed. 1441 are IP-only rules, 5152 are inspecting packet payload, 30098 inspect application layer, 103 are decoder event only
+[26311] 11/12/2022 -- 23:49:25 - (tm-threads.c:2170) <Notice> (TmThreadWaitOnThreadInit) -- all 2 packet processing threads, 4 management threads initialized, engine started.
+[26313] 11/12/2022 -- 23:49:25 - (source-pcap-file.c:176) <Info> (ReceivePcapFileLoop) -- Starting file run for netflowlab_capture.pcap
+[26313] 11/12/2022 -- 23:49:25 - (util-checksum.c:89) <Info> (ChecksumAutoModeCheck) -- No packets with invalid checksum, assuming checksum offloading is NOT used
+[26313] 11/12/2022 -- 23:54:04 - (source-pcap-file-helper.c:149) <Info> (PcapFileDispatch) -- pcap file netflowlab_capture.pcap end of file reached (pcap err code 0)
+[26311] 11/12/2022 -- 23:54:04 - (suricata.c:2916) <Notice> (SuricataMainLoop) -- Signal Received.  Stopping engine.
+[26311] 11/12/2022 -- 23:54:39 - (suricata.c:1103) <Info> (SCPrintElapsedTime) -- time elapsed 314.236s
+[26313] 11/12/2022 -- 23:54:39 - (source-pcap-file.c:377) <Notice> (ReceivePcapFileThreadExitStats) -- Pcap-file module read 1 files, 2397018 packets, 2223088104 bytes
+[26311] 11/12/2022 -- 23:54:39 - (counters.c:853) <Info> (StatsLogSummary) -- Alerts: 41014
+[26311] 11/12/2022 -- 23:54:40 - (detect-engine-build.c:1716) <Info> (SigAddressCleanupStage1) -- cleaning up signature grouping structure... complete
